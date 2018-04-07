@@ -1,0 +1,57 @@
+img, .sidebar .list-group-item{
+  border-radius: 3px;
+}
+
+/* 左侧边栏定义 */
+
+.sidebar .list-group-item{
+  border:0px;
+  border-bottom: 5px;
+
+}
+
+.sidebar .list-group-item:hover{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .list-group-item.active{
+  background-color: #0168b7;
+}
+
+/* 新闻列表 */
+
+.new-list-item {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   border-bottom: 1px solid #dedede;
+}
+.new-list-item:first-child {
+  padding-top:0px;
+}
+
+.new-list-item:last-child {
+  border-bottom: 0px;
+}
+
+.new-list-item .title{
+  margin-bottom: 10px;
+  display:block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.new-list-item .avatar{
+  display: inline-block;
+
+}
+.new-list-item .avatar img{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.new-list-item .info{
+  color: #888;
+}

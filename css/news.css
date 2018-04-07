@@ -1,0 +1,21 @@
+.news-title{
+  line-height: 1.4;
+}
+.news-status{
+  color: #999;
+}
+
+.news-status .label{
+  opacity: 0.8;
+}
+
+.news-content{
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.news-content img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

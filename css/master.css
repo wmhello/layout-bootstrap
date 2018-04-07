@@ -1,3 +1,4 @@
+/* 全局元素定义 */
 body{
 
 }
@@ -15,10 +16,7 @@ img{
   width: 100%;
 }
 
-img, .sidebar .list-group-item{
-  border-radius: 3px;
-
-}
+/* 全局导航栏标志位定义 */
 .navbar-brand{
   background: url(../img/timg.jpg);
   width: 50px;
@@ -27,60 +25,23 @@ img, .sidebar .list-group-item{
   background-repeat: no-repeat;
 
 }
-.content{
+
+/* 页脚定义 */
+.footer{
+  text-align: center;
+  background: #ccc;
+  color: #999;
+  margin-top: 30px;
+  padding: 30px 0px;
+}
+
+.footer a{
+  color: #999;
 
 }
 
-.sidebar .list-group-item{
-  border:0px;
-  border-bottom: 5px;
 
-}
-
-.sidebar .list-group-item:hover{
-  background: rgba(0, 0, 0, 0.1);
-}
-
-.sidebar .list-group-item.active{
-  background-color: #0168b7;
-}
-
-.new-list-item {
-   padding-top: 15px;
-   padding-bottom: 15px;
-   border-bottom: 1px solid #dedede;
-}
-.new-list-item:first-child {
-  padding-top:0px;
-}
-
-.new-list-item:last-child {
-  border-bottom: 0px;
-}
-
-.new-list-item .title{
-  margin-bottom: 10px;
-  display:block;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.5;
-}
-
-.new-list-item .avatar{
-  display: inline-block;
-
-}
-.new-list-item .avatar img{
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
-}
-
-.new-list-item .info{
-  color: #888;
-}
-
+/* 侧边栏卡片定义 */
 .side-bar-card {
   margin-top: 20px;
   background: rgba(0,0,0, 0.05);
@@ -114,15 +75,29 @@ img, .sidebar .list-group-item{
   color: #999;
 }
 
-.footer{
-  text-align: center;
-  background: #ccc;
-  color: #999;
-  margin-top: 30px;
-  padding: 30px 0px;
+.no-padding-h{
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.footer a{
-  color: #999;
+.container-small {
+  width: 500px;
+}
 
+/* 自适应菜单 */
+#checkbox-toggle:checked ~div{
+  display: block !important;
+}
+
+#label-toggle{
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  color: #666;
+  display: none;
+}
+
+#label-toggle:hover{
+  color: #333;
 }
